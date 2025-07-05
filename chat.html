@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chat with Babalexa</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f0f0;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+    header {
+      background-color: #1e90ff;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      font-size: 1.5rem;
+    }
+    .chat-box {
+      flex-grow: 1;
+      padding: 1rem;
+      overflow-y: auto;
+      background: white;
+    }
+    .input-box {
+      display: flex;
+      padding: 1rem;
+      background-color: #eee;
+    }
+    input {
+      flex-grow: 1;
+      padding: 0.5rem;
+      font-size: 1rem;
+    }
+    button {
+      padding: 0.5rem 1rem;
+      margin-left: 0.5rem;
+      font-size: 1rem;
+      background-color: #1e90ff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>Chat with Babalexa.ai</header>
+  <div class="chat-box">
+    <p><strong>Babalexa:</strong> Hello! Ask me anything...</p>
+  </div>
+  <div class="input-box">
+    <input type="text" placeholder="Type your message...">
+    <button>Send</button>
+  </div>
+</body>
+</html>
